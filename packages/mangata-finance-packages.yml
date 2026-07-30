@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/search?q=%40mangata-finance
+notes: >-
+  Mangata Finance (Mangata X / GASP) is a Substrate-based parachain DEX. Its
+  developer surface is a TypeScript SDK that communicates with the Mangata
+  Substrate node over Polkadot.js JSON-RPC/WebSocket (there is no REST/OpenAPI
+  API). Packages are published under the @mangata-finance npm scope from the
+  gasp-xyz/mangata-dev-kit monorepo.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@mangata-finance/sdk"
+    version: 2.2.0
+    url: https://www.npmjs.com/package/@mangata-finance/sdk
+    install: npm i @mangata-finance/sdk
+    repository: https://github.com/gasp-xyz/mangata-dev-kit
+    description: >-
+      Trading SDK for buying and selling assets on the Mangata DEX and
+      communicating with the Mangata Substrate node (xTokens, xyk, rpc, tokens,
+      query, fee, util method groups).
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@mangata-finance/types"
+    version: 2.2.2
+    url: https://www.npmjs.com/package/@mangata-finance/types
+    install: npm i @mangata-finance/types
+    repository: https://github.com/gasp-xyz/mangata-dev-kit
+    description: Polkadot.js type definitions for the Mangata Network.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@mangata-finance/type-definitions"
+    version: 2.1.2
+    url: https://www.npmjs.com/package/@mangata-finance/type-definitions
+    install: npm i @mangata-finance/type-definitions
+    repository: https://github.com/gasp-xyz/mangata-dev-kit
+    description: Runtime type definitions for Mangata Finance.
+    official: true

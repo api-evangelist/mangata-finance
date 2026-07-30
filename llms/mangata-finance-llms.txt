@@ -1,0 +1,21 @@
+# Mangata Finance
+
+> Mangata Finance (Mangata X, now rebranded GASP) is a decentralized exchange built as a Substrate parachain in the Polkadot/Kusama ecosystem. It offers gas-free swaps, an omnichain ZK-rollup design, and a Proof-of-Liquidity consensus model. Developers integrate through a TypeScript SDK that communicates with the Mangata Substrate node over Polkadot.js JSON-RPC/WebSocket; there is no REST/OpenAPI surface.
+
+## Docs
+- [Documentation](https://docs.mangata.finance/): Trading, liquidity, Proof of Liquidity, and technical guides.
+- [Litepaper: Themis Architecture](https://docs.mangata.finance/): Omnichain ZK-rollup, liquidity gauges, gas-free swaps.
+- [Blog](https://blog.mangata.finance/)
+
+## SDK
+- [@mangata-finance/sdk (npm)](https://www.npmjs.com/package/@mangata-finance/sdk): TypeScript trading SDK for the Mangata DEX and Substrate node.
+- [@mangata-finance/types (npm)](https://www.npmjs.com/package/@mangata-finance/types): Polkadot.js type definitions for the Mangata Network.
+- [@mangata-finance/type-definitions (npm)](https://www.npmjs.com/package/@mangata-finance/type-definitions): Runtime type definitions.
+
+## Source
+- [GitHub org (gasp-xyz)](https://github.com/gasp-xyz): mangata-node, mangata-sdk, mangata-dev-kit, mangata-bridge, types-definitions.
+- [mangata-sdk](https://github.com/gasp-xyz/mangata-sdk): SDK source.
+- [mangata-api-example](https://github.com/gasp-xyz/mangata-api-example): Example of Mangata API usage.
+
+## Network
+- [Website](https://mangata.finance)
