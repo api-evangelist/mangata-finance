@@ -1,8 +1,27 @@
 aid: mangata-finance
 name: Mangata Finance
-description: 'Mangata Finance is a company surfaced as a portfolio company of polychain and added to the
-  API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Mangata Finance (Mangata X, since rebranded GASP) is a decentralized exchange
+  built as a Substrate parachain in the Polkadot and Kusama ecosystem. It is
+  designed for algorithmic traders and DeFi frontends, offering gas-free swaps,
+  an omnichain ZK-rollup architecture, and a Proof-of-Liquidity consensus model
+  where liquidity providers help secure the network. There is no REST or OpenAPI
+  surface; developers integrate through a TypeScript SDK (@mangata-finance/sdk)
+  that communicates with the Mangata Substrate node over Polkadot.js
+  JSON-RPC/WebSocket, with published type-definition packages and open-source
+  node, bridge, and dev-kit repositories under the gasp-xyz GitHub organization.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://blog.mangata.finance/assets/posts/themis-cover.png
 url: https://raw.githubusercontent.com/api-evangelist/mangata-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Defi
+- Decentralized Exchange
+- Blockchain
+- Polkadot
+- Substrate
+- Trading
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://mangata.finance
+- type: Documentation
+  url: https://docs.mangata.finance/
+- type: Blog
+  url: https://blog.mangata.finance/
+- type: GitHubOrganization
+  url: https://github.com/gasp-xyz
+- type: Packages
+  url: packages/mangata-finance-packages.yml
+- type: SDKs
+  url: packages/mangata-finance-packages.yml
+- type: LLMsTxt
+  url: llms/mangata-finance-llms.txt
+- type: DomainSecurity
+  url: security/mangata-finance-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
