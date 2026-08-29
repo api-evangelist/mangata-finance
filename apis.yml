@@ -10,6 +10,17 @@ description: >-
   that communicates with the Mangata Substrate node over Polkadot.js
   JSON-RPC/WebSocket, with published type-definition packages and open-source
   node, bridge, and dev-kit repositories under the gasp-xyz GitHub organization.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
